@@ -1,35 +1,26 @@
-# Streamlit and frontend
-streamlit==1.29.0
-rich==13.3.4             # Compatible with Streamlit 1.29
-markdown-it-py==4.0.0
-mdurl==0.1.2
-pygments==2.19.2
+streamlit
+rich
+markdown-it-py
+mdurl
+pygments
+pandas
+numpy
+pyodbc
+oracledb
+requests
+plotly
+altair
+click
+packaging
+pillow
+protobuf
+python-dateutil
+cachetools
+pyarrow
+blinker
+importlib-metadata
 
-# Data processing
-pandas==2.0.3
-numpy==1.26.4
 
-# SQL / DB connectors
-pyodbc>=5.2.0
-oracledb==1.1.1
-
-# HTTP requests
-requests==2.31.0
-
-# Visualization
-plotly==6.3.0
-altair==5.5.0
-
-# Utilities
-click==8.2.1
-packaging==23.2
-pillow==10.4.0
-protobuf==4.25.8
-python-dateutil==2.9.0.post0
-cachetools==5.5.2
-pyarrow==21.0.0
-blinker==1.9.0
-importlib-metadata==6.11.0
 
 
 
