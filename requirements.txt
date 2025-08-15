@@ -19,6 +19,7 @@ cachetools
 pyarrow
 blinker
 importlib-metadata
+faker
 
 
 
