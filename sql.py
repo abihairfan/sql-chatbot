@@ -119,11 +119,8 @@ st.sidebar.markdown(
 
 
 
-# Oracle Client Init
-try:
-    oracledb.init_oracle_client(lib_dir=r"C:\\Users\\Dw\\Downloads\\instantclient-basic-windows.x64-21.18.0.0.0dbru\\instantclient_21_18")
-except oracledb.ProgrammingError:
-    pass
+import oracledb
+
 
 # Excel Download
 def add_excel_download_button(df, key):
@@ -599,3 +596,4 @@ elif mode == "Connect to DB":
                         st.rerun()
                 except Exception as e:
                     st.error(f"❌ SQL Execution Error: {e}")
+
